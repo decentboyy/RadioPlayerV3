@@ -31,11 +31,11 @@ buttons = [
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/Octave_support"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/pglpnti_ki_duniya"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("🤖 TO MAKE YOUR OWN BOT CONTACT 🤖", url="https://t.me/Decent_op"),
             ]
          ]
 
@@ -47,9 +47,9 @@ async def search(client, query):
         answers.append(
             InlineQueryResultPhoto(
                 title="Deploy Your Own Radio Player",
-                thumb_url="https://telegra.ph/file/4e839766d45935998e9c6.jpg",
-                photo_url="https://telegra.ph/file/4e839766d45935998e9c6.jpg",
-                caption=f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @AsmSupport 👑</b>",
+                thumb_url="https://graph.org/file/3d2eec6223e6b1e23c085.jpg",
+                photo_url="https://graph.org/file/3d2eec6223e6b1e23c085.jpg",
+                caption=f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@Octave_support | @pglpnti_ki_duniya 👑</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
