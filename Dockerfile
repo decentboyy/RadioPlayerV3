@@ -1,5 +1,5 @@
 # Debian Based Docker
-FROM debian:latest
+FROM python:latest
 
 RUN apt update && apt upgrade -y
 
